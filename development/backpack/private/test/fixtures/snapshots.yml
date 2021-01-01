@@ -1,7 +1,31 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+# Given a snapshot
+# When the snapshot is tagged "action:fetch"
+# Then a descendant snapshot is created
+#
+# Given a descendant snapshot
+# When the filter is applied
+# Then the descendant is marked done
+# And appointments are created
+#
+# Given an appointment is created
+# When the data are saved
+# Then the data are synced across devices
+#
+
 one:
   snapshot_id: MyString
 
 two:
   snapshot_id: MyString
+
+note:
+  text:
+
+todo:
+  note:
+
+apts:
+  note:
+
