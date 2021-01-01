@@ -45,3 +45,5 @@ Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d
 Completed 200 OK in 1698ms (Views: 1686.4ms | ActiveRecord: 0.7ms | Allocations: 25650)
 
 
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
