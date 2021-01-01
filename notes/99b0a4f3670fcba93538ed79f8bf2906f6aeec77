@@ -1,0 +1,5 @@
+---
+command: curl
+host: api.trello.com
+dyno: boards/$board_id.json
+board_ids: 1 2 3

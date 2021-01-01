@@ -1,0 +1,4 @@
+---
+domain: api.trello.com
+filter: boards/$board_id.json
+board_ids: 1 2 3
